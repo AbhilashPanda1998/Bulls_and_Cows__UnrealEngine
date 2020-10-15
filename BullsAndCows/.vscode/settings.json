@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/.vscode": true,
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Content": true,
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/DerivedDataCache": true,
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Intermediate": true,
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Saved": true
+	}
+}
