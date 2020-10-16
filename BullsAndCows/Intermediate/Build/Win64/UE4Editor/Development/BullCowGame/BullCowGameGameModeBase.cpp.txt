@@ -1,7 +1,7 @@
-D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\Definitions.BullCowGame.h
-D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Source\BullCowGame\BullCowGameGameModeBase.h
-D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\Unreal Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\Unreal Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Inc\BullCowGame\BullCowGameGameModeBase.generated.h
+F:\Unreal\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\Definitions.BullCowGame.h
+F:\Unreal\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Source\BullCowGame\BullCowGameGameModeBase.h
+F:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+F:\Unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+F:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+F:\Unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+F:\Unreal\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Inc\BullCowGame\BullCowGameGameModeBase.generated.h

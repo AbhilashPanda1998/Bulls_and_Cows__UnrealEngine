@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Unreal Projects\\Bulls_and_Cows__UnrealEngine\\BullsAndCows\\Source\\BullCowGame\\BullCowGame.Build.cs",
-		"D:\\Unreal Projects\\Bulls_and_Cows__UnrealEngine\\BullsAndCows\\Source\\BullCowGame.Target.cs",
-		"D:\\Unreal Projects\\Bulls_and_Cows__UnrealEngine\\BullsAndCows\\Source\\BullCowGameEditor.Target.cs"
+		"F:\\Unreal\\Unreal Projects\\Bulls_and_Cows__UnrealEngine\\BullsAndCows\\Source\\BullCowGame\\BullCowGame.Build.cs",
+		"F:\\Unreal\\Unreal Projects\\Bulls_and_Cows__UnrealEngine\\BullsAndCows\\Source\\BullCowGame.Target.cs",
+		"F:\\Unreal\\Unreal Projects\\Bulls_and_Cows__UnrealEngine\\BullsAndCows\\Source\\BullCowGameEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }
