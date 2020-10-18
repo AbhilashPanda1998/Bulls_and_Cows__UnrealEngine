@@ -7,12 +7,17 @@ void UBullCowCartridge::BeginPlay() // When the game starts
     PrintLine(TEXT("Welcome to Bulls And Cows!!!"));
     PrintLine(TEXT("Guess the 4 Letter Word"));
     PrintLine(TEXT("Press enter to continue"));
+    HiddenWord = TEXT("Cake");
+
+    //SetLives
+
+    
 }
 
 void UBullCowCartridge::OnInput(const FString & Input) // When the player hits enter
 {
     ClearScreen();
-    HiddenWord = "Cake";
+
     if (Input == HiddenWord)
     {
         PrintLine(TEXT("You Won"));

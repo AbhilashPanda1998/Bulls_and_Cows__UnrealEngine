@@ -1,9 +1,9 @@
 {
 	"files.exclude": {
-		"F:/Unreal/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/.vscode": true,
-		"F:/Unreal/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Content": true,
-		"F:/Unreal/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/DerivedDataCache": true,
-		"F:/Unreal/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Intermediate": true,
-		"F:/Unreal/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Saved": true
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/.vscode": true,
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Content": true,
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/DerivedDataCache": true,
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Intermediate": true,
+		"D:/Unreal Projects/Bulls_and_Cows__UnrealEngine/BullsAndCows/Saved": true
 	}
 }
