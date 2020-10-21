@@ -4,17 +4,16 @@
 void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
+
+    //Welcomes Player
     PrintLine(TEXT("Welcome to Bulls And Cows!!!"));
     PrintLine(TEXT("Guess the 4 Letter Word"));
     PrintLine(TEXT("Press enter to continue"));
-    HiddenWord = TEXT("Cake");
 
-    //SetLives
-
-    
+    SetupGame(); // Sets up game
 }
 
-void UBullCowCartridge::OnInput(const FString & Input) // When the player hits enter
+void UBullCowCartridge::OnInput(const FString &Input) // When the player hits enter
 {
     ClearScreen();
 
@@ -24,6 +23,20 @@ void UBullCowCartridge::OnInput(const FString & Input) // When the player hits e
     }
     else
     {
-        PrintLine("You Lost");
+        if (Input.Len() != HiddenWord.Len())
+        {
+            PrintLine(TEXT("The Hidden Word is 4 Characters Long"));
+            PrintLine("You Lost");
+        }
+        else
+        {
+            PrintLine(TEXT("TooClose"));
+        }
     }
+}
+
+void UBullCowCartridge::SetupGame()
+{
+    HiddenWord = TEXT("Cake");
+    Lives = 4;
 }
