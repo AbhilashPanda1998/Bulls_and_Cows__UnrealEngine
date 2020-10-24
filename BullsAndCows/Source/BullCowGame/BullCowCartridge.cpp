@@ -5,12 +5,14 @@ void UBullCowCartridge::BeginPlay() // When the game starts
 {
     Super::BeginPlay();
 
+    SetupGame();
+
+    PrintLine(FString :: Printf(TEXT("The Hiddenword is: %s"), HiddenWord));
+
     //Welcomes Player
     PrintLine(TEXT("Welcome to Bulls And Cows!!!"));
     PrintLine(TEXT("Guess the 4 Letter Word"));
     PrintLine(TEXT("Press enter to continue"));
-
-    SetupGame(); // Sets up game
 }
 
 void UBullCowCartridge::OnInput(const FString &Input) // When the player hits enter
