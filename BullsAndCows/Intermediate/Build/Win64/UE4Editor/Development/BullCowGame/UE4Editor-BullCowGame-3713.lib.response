@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BullCowGame-3713.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\BullCowGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\Cartridge.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\Terminal.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\BullCowCartridge.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\BullCowGame.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\BullCowGameGameModeBase.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\BullCowCartridge.gen.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\BullCowGame.init.gen.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\BullCowGameGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\Cartridge.gen.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\Terminal.gen.cpp.obj"
+"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Bulls_and_Cows__UnrealEngine\BullsAndCows\Intermediate\Build\Win64\UE4Editor\Development\BullCowGame\UE4Editor-BullCowGame-3713.lib"
+/INCLUDE:IMPLEMENT_MODULE_BullCowGame
