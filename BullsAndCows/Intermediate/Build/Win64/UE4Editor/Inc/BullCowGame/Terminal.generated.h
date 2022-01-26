@@ -64,7 +64,7 @@ public: \
 	NO_API UTerminal(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTerminal) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTerminal); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTerminal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTerminal); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTerminal(UTerminal&&); \
@@ -81,7 +81,7 @@ private: \
 	NO_API UTerminal(const UTerminal&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTerminal); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTerminal); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTerminal); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTerminal)
 
 

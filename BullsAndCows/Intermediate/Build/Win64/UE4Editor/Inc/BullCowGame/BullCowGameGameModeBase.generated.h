@@ -39,7 +39,7 @@ public: \
 	NO_API ABullCowGameGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABullCowGameGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABullCowGameGameModeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABullCowGameGameModeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABullCowGameGameModeBase); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABullCowGameGameModeBase(ABullCowGameGameModeBase&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API ABullCowGameGameModeBase(const ABullCowGameGameModeBase&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABullCowGameGameModeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABullCowGameGameModeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABullCowGameGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABullCowGameGameModeBase)
 
 

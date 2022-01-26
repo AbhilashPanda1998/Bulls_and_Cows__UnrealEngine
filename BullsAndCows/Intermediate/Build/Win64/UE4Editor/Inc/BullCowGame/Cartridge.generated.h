@@ -37,9 +37,9 @@ public: \
 #define BullsAndCows_Source_BullCowGame_Console_Cartridge_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCartridge(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCartridge) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCartridge) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCartridge); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCartridge); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCartridge); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UCartridge(UCartridge&&); \
@@ -56,8 +56,8 @@ private: \
 	NO_API UCartridge(const UCartridge&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UCartridge); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCartridge); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCartridge)
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCartridge); \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UCartridge)
 
 
 #define BullsAndCows_Source_BullCowGame_Console_Cartridge_h_13_PRIVATE_PROPERTY_OFFSET
